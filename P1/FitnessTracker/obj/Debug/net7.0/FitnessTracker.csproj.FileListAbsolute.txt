@@ -1,0 +1,14 @@
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\FitnessTracker.exe
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\FitnessTracker.deps.json
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\FitnessTracker.runtimeconfig.json
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\FitnessTracker.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\FitnessTracker.pdb
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.AssemblyInfoInputs.cache
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.AssemblyInfo.cs
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.csproj.CoreCompileInputs.cache
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\refint\FitnessTracker.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.pdb
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.genruntimeconfig.cache
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\ref\FitnessTracker.dll
