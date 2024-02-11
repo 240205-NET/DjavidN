@@ -12,3 +12,11 @@ C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\refint\Fitnes
 C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.pdb
 C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.genruntimeconfig.cache
 C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\ref\FitnessTracker.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\ScottPlot.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.csproj.AssemblyReference.cache
+C:\Users\19513\Revature\DjavidN\P1\FitnessTracker\obj\Debug\net7.0\FitnessTracker.csproj.CopyComplete
