@@ -1,9 +1,9 @@
 
 namespace FitnessTracker{
 
-  abstract class Training{
+  public abstract class Training{
 
-    public List<Weekday> day = new List<Weekday>();
+    public List<Weekday> day = new();
     
     public abstract double CalculateBurntCalories();
   }
