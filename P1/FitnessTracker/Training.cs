@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace FitnessTracker
 {
     public abstract class Training
@@ -12,7 +9,6 @@ namespace FitnessTracker
     {
         public override double CalculateBurntCalories()
         {
-            
             return 0;
         }
     }
@@ -21,7 +17,6 @@ namespace FitnessTracker
     {
         public override double CalculateBurntCalories()
         {
-            
             return 0;
         }
     }
@@ -30,7 +25,6 @@ namespace FitnessTracker
     {
         public override double CalculateBurntCalories()
         {
-            
             return 0;
         }
     }
@@ -39,7 +33,6 @@ namespace FitnessTracker
     {
         public override double CalculateBurntCalories()
         {
-
             return 0;
         }
     }

@@ -1,12 +1,15 @@
 namespace FitnessTracker.Tests;
+
+using System.Windows.Forms;
 using FitnessTracker;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 public class UnitTests
 {
     [Fact]
-    public void Test1()  /// Evaluating user registration
+    public void UserTest()  /// Evaluating user registration
     {
-        string name = "John";
+        string name = "John".ToLower();
         double weight = 70.5;
         double height = 175;
 
@@ -23,7 +26,7 @@ public class UnitTests
         Console.SetOut(stringWriter);
 
         // Act
-        Trainee newTrainee = Program.RegisterUser();
+        Trainee newTrainee = FitnessTracker.Program.RegisterUser();
 
         // Reset Console input and output
         Console.SetIn(originalInput);
@@ -35,25 +38,35 @@ public class UnitTests
         Assert.Equal(height, newTrainee.Height);
     }
 
-    [Theory]
-    [InlineData(Weekday.Monday, 100)]
-    [InlineData(Weekday.Tuesday, 150)]
-    [InlineData(Weekday.Wednesday, 80)]
-    public void RecordWorkout_Validation(Weekday day, double BurntCalories){
+    [Fact]
+    public void TestSavedCalories()
+    {
+        Trainee newTrainee = new Trainee();
+        newTrainee.Training_Record.Add(new TrainingRecord
+            {
+                Training = new Running(),
+                Day = Weekday.Monday,
+                Calories = 303
+            });
 
-        Trainee newTrainee = new Trainee("Nima");
-        TrainingRecord newRecord = new TrainingRecord
-        {
-            Training = new Running(),
-            Day = Weekday.Tuesday,
-            Calories = 150
-        };
+        newTrainee.Training_Record.Add(new TrainingRecord
+            {
+                Training = new PushUps(),
+                Day = Weekday.Wednesday,
+                Calories = 404
+            });
 
-        Program.RecordWorkout(ref newTrainee, day, BurntCalories);
+        FitnessTracker.Program.SaveCaloriesPerDay(ref newTrainee);
 
-        Assert.Equal(2, newTrainee.Training_Record.Count);
-        Assert.Contains(newTrainee.Training_Record, record => record.day == day && record.Calories == BurntCalories);
+        // Assert
+        string userName = newTrainee.Name ?? "unknown";
+        string filename = $"{userName}_training.xml";
+
+        Assert.True(File.Exists(filename)); // Check that the file was created
+
     }
+
+    
 
 
 }

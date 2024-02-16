@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 
 namespace FitnessTracker
@@ -11,9 +10,7 @@ namespace FitnessTracker
 
         public List<TrainingRecord> Training_Record = new();
 
-        public Trainee()
-        {
-        }
+        public Trainee() { }
 
         public Trainee(string? _name)
         {
@@ -30,8 +27,7 @@ namespace FitnessTracker
 
     public class DailyTrainingData
     {
-      public Weekday Day { get; set; }
-      public double BurntCalories { get; set; }
+        public Weekday Day { get; set; }
+        public double BurntCalories { get; set; }
     }
-
 }
