@@ -1,39 +1,46 @@
+using System;
+using System.Collections.Generic;
 
-namespace FitnessTracker{
-
-  public abstract class Training{
-
-    public List<Weekday> day = new();
-    
-    public abstract double CalculateBurntCalories();
-  }
-
-  class Running : Training{
-    override public double CalculateBurntCalories(){
-
-      return 0.0;
-    }
-  }
-
-  class Pushups : Training{
-    override public double CalculateBurntCalories()
+namespace FitnessTracker
+{
+    public abstract class Training
     {
-      return 0.0;
+        public abstract double CalculateBurntCalories();
     }
-  }
 
-  class Pullups : Training{
-    override public double CalculateBurntCalories()
+    public class Running : Training
     {
-      return 0.0;
+        public override double CalculateBurntCalories()
+        {
+            
+            return 0;
+        }
     }
-  } 
 
-  class BenchPress : Training{
-    override public double CalculateBurntCalories()
+    public class PushUps : Training
     {
-      return 0.0;
+        public override double CalculateBurntCalories()
+        {
+            
+            return 0;
+        }
     }
-  }
 
+    public class PullUps : Training
+    {
+        public override double CalculateBurntCalories()
+        {
+            
+            return 0;
+        }
+    }
+
+    public class BenchPress : Training
+    {
+        public override double CalculateBurntCalories()
+        {
+
+            return 0;
+        }
+    }
 }
